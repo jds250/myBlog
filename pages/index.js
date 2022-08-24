@@ -15,9 +15,6 @@ export async function getStaticProps() {
   };
 }
 
-
-
-
 export default function Home({allPostsData}) {
   return (
     <Layout home>
@@ -29,7 +26,7 @@ export default function Home({allPostsData}) {
         <ul className={utilStyles.list}>
           {allPostsData&&allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/post/${id}`}>
+              <Link href={`/${id}`}>
                 <a>{title}</a>
               </Link>
               <br/>
