@@ -30,7 +30,6 @@ export async function getStaticPaths(){
         paths,fallback: false
     }
      // Return a list of possible value for id
-
 }
 
 export async function getStaticProps({ params }) {
@@ -41,3 +40,4 @@ export async function getStaticProps({ params }) {
         },
     }
   }
+
