@@ -36,14 +36,14 @@ export default function Layout({ children, home }) {
               width={144}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2X1}>{name}</h1>
           </>
         ) : (//false
           <>
             <Link href="/">
               <a>
                 <Image
-                  priority
+                  priority  
                   src="/images/profile.jpg"
                   className={utilStyles.borderCircle}
                   height={108}
