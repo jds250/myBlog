@@ -29,7 +29,6 @@ export default function Home({allPostsData}) {
     </Layout>
   );
 }
-
 export  function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
